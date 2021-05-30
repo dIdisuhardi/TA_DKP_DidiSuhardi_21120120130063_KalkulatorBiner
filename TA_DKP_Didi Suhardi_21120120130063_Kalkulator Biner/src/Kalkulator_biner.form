@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Kalkulator_biner">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-8079955"/>
+      <enabled value="false"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none">
+      <title-color color="-13423685"/>
+    </border>
+    <children>
+      <component id="42054" class="javax.swing.JLabel" binding="desimal_field">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Desimal"/>
+        </properties>
+      </component>
+      <component id="d8984" class="javax.swing.JLabel" binding="biner_field">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Biner"/>
+        </properties>
+      </component>
+      <component id="f9dd0" class="javax.swing.JLabel" binding="oktal_field">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Oktal"/>
+        </properties>
+      </component>
+      <component id="682b3" class="javax.swing.JLabel" binding="heksa_field">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Heksadesimal"/>
+        </properties>
+      </component>
+      <component id="44c22" class="javax.swing.JTextField" binding="textfield_desimal">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="d4e64" class="javax.swing.JTextField" binding="textField_biner">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="9c752" class="javax.swing.JTextField" binding="textField_oktal">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="35658" class="javax.swing.JTextField" binding="textField_heksa">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="19782" class="javax.swing.JButton" binding="kali_button">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13086013"/>
+          <foreground color="-1"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="53e1a" class="javax.swing.JButton" binding="hasil_button">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2263260"/>
+          <foreground color="-1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="f1aed" class="javax.swing.JButton" binding="bagi_button">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13086013"/>
+          <foreground color="-1"/>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="e4a00" class="javax.swing.JButton" binding="tambah_button">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13086013"/>
+          <foreground color="-1"/>
+          <hideActionText value="true"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="5258e" class="javax.swing.JButton" binding="kurang_button">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13086013"/>
+          <foreground color="-1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="cd1fe" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2263260"/>
+          <foreground color="-1"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="a9a19" class="javax.swing.JComboBox" binding="pilihan_box">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12532799"/>
+          <editable value="false"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Desimal"/>
+            <item value="Biner"/>
+            <item value="Oktal"/>
+            <item value="Heksadesimal"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ad72d" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="d2e2c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Jenis Input"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
